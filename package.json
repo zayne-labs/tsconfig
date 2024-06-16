@@ -6,6 +6,7 @@
 		"type": "git",
 		"url": "https://github.com/ryan-zayne/tsconfig.git"
 	},
+	"homepage": "https://github.com/ryan-zayne/tsconfig#readme",
 	"license": "MIT",
 	"author": "Ryan Zayne",
 	"exports": {
