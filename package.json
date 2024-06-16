@@ -1,6 +1,6 @@
 {
 	"name": "@z-labs/tsconfig",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A collection of TypeScript configurations for various projects, based on Total TypeScript's TSConfig Cheat Sheet, with a few additions.",
 	"repository": {
 		"type": "git",
@@ -21,11 +21,11 @@
 		"./bundler/dom": "./bundler/tsconfig.dom.json",
 		"./bundler/dom/app": "./bundler/tsconfig.dom.json",
 		"./bundler/dom/library": "./bundler/tsconfig.dom.json",
-		"./bundler/dom/vite": "./bundler/tsconfig.vite.json",
-		"./bundler/dom/next": "./bundler/tsconfig.next.json",
 		"./bundler/no-dom": "./bundler/tsconfig.no-dom.json",
 		"./bundler/no-dom/app": "./bundler/tsconfig.no-dom.json",
-		"./bundler/no-dom/library": "./bundler/tsconfig.no-dom.json"
+		"./bundler/no-dom/library": "./bundler/tsconfig.no-dom.json",
+		"./bundler/vite": "./bundler/tsconfig.vite.json",
+		"./bundler/next": "./bundler/tsconfig.next.json"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.27.5"
