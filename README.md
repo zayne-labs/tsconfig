@@ -1,6 +1,6 @@
-# `@zayne/tsconfig`
+# `@z-labs/tsconfig`
 
-This package helps set proper presets for most projects . Inspired by Matt Pocock's [TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet).
+This package helps set proper presets for most projects. Inspired by Matt Pocock's [TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet).
 
 ## Setup
 
@@ -8,10 +8,10 @@ This package helps set proper presets for most projects . Inspired by Matt Pococ
 
 ```bash
 # Npm
- npm install --save-dev @zayne/tsconfig
+ npm install --save-dev @z-labs/tsconfig
 
 # Pnpm
-pnpm add -D @zayne/tsconfig
+pnpm add -D @z-labs/tsconfig
 ```
 
 2. Choose which `tsconfig.json` you need from the [list](#list-of-tsconfigs) below.
@@ -21,7 +21,7 @@ pnpm add -D @zayne/tsconfig
 ```jsonc
 {
 	// When building an app that runs in the DOM with an external bundler
-	"extends": "@zayne/tsconfig/bundler/dom/app",
+	"extends": "@z-labs/tsconfig/bundler/dom/app",
 }
 ```
 
@@ -36,12 +36,12 @@ If yes, use this selection of configs:
 ```jsonc
 {
 	// For code that runs in the DOM:
-	"extends": "@zayne/tsconfig/tsc/dom/app", // For an app
-	"extends": "@zayne/tsconfig/tsc/dom/library", // For a library
+	"extends": "@z-labs/tsconfig/tsc/dom/app", // For an app
+	"extends": "@z-labs/tsconfig/tsc/dom/library", // For a library
 
 	// For code that doesn't run in the DOM (for instance, in Node.js):
-	"extends": "@zayne/tsconfig/tsc/no-dom/app", // For an app
-	"extends": "@zayne/tsconfig/tsc/no-dom/library", // For a library
+	"extends": "@z-labs/tsconfig/tsc/no-dom/app", // For an app
+	"extends": "@z-labs/tsconfig/tsc/no-dom/library", // For a library
 }
 ```
 
@@ -52,12 +52,12 @@ If no, you're probably using an external bundler.
 ```jsonc
 {
 	// For code that runs in the DOM:
-	"extends": "@zayne/tsconfig/bundler/dom/app", // For an app
-	"extends": "@zayne/tsconfig/bundler/dom/library", // For a library
+	"extends": "@z-labs/tsconfig/bundler/dom/app", // For an app
+	"extends": "@z-labs/tsconfig/bundler/dom/library", // For a library
 
 	// For code that doesn't run in the DOM (for instance, in Node.js):
-	"extends": "@zayne/tsconfig/bundler/no-dom/app", // For an app
-	"extends": "@zayne/tsconfig/bundler/no-dom/library", // For a library
+	"extends": "@z-labs/tsconfig/bundler/no-dom/app", // For an app
+	"extends": "@z-labs/tsconfig/bundler/no-dom/library", // For a library
 }
 ```
 
@@ -68,9 +68,9 @@ The following are currently supported framework-specific options, will add more 
 ```jsonc
 {
 	// For a vite app
-	"extends": "@zayne/tsconfig/bundler/dom/vite",
+	"extends": "@z-labs/tsconfig/bundler/dom/vite",
 
 	// For a nextjs app
-	"extends": "@zayne/tsconfig/bundler/dom/next",
+	"extends": "@z-labs/tsconfig/bundler/dom/next",
 }
 ```
