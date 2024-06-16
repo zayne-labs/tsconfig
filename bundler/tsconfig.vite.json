@@ -8,10 +8,6 @@
 		"useDefineForClassFields": true,
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
-		"baseUrl": ".",
-		"paths": {
-			"@/*": ["src/*"]
-		},
 
 		/* Don't allow importing JavaScript files by default, to avoid mistake "any" (burnt me before): */
 		"allowJs": false,
