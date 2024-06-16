@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		/* Base Options: */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+
+		/* Don't allow importing JavaScript files by default, to avoid mistake "any" (burnt me before): */
+		"allowJs": false,
+
+		/* Linting: */
+		"strict": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowUnreachableCode": false,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"noErrorTruncation": true,
+		"noUncheckedIndexedAccess": true,
+
+		/* If transpiling with TypeScript: */
+		"module": "NodeNext",
+		"sourceMap": true,
+		"target": "ES2022",
+		"outDir": "dist",
+
+		/* If you're building for a library: */
+		"declaration": true,
+
+		/* If your code doesn't run in the DOM: */
+		"lib": ["ES2022"]
+	}
+}
