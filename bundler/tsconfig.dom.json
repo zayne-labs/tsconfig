@@ -7,6 +7,11 @@
 		"moduleDetection": "force",
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
+		"useDefineForClassFields": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		},
 
 		/* Don't allow importing JavaScript files by default, to avoid mistake "any" (burnt me before): */
 		"allowJs": false,
@@ -23,10 +28,11 @@
 		"noErrorTruncation": true,
 		"noUncheckedIndexedAccess": true,
 
-		/* If NOT transpiling with TypeScript: */
+		/* Bundler Mode: */
 		"module": "Preserve",
-		"noEmit": true,
 		"target": "ESNext",
+		"noEmit": true,
+		"jsx": "preserve",
 
 		/* If your code runs in the DOM: */
 		"lib": ["ESNext", "DOM", "DOM.Iterable"]

@@ -5,9 +5,9 @@
 		"skipLibCheck": true,
 		"resolveJsonModule": true,
 		"moduleDetection": "force",
+		"useDefineForClassFields": true,
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
-		"useDefineForClassFields": true,
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["src/*"]
@@ -28,16 +28,17 @@
 		"noErrorTruncation": true,
 		"noUncheckedIndexedAccess": true,
 
-		/* If transpiling with TypeScript: */
-		"module": "NodeNext",
-		"sourceMap": true,
-		"target": "ES2022",
-		"outDir": "dist",
+		/* Bundler mode: */
+		"module": "Preserve",
+		"target": "ESNext",
+		"noEmit": true,
+		"jsx": "preserve",
 
-		/* If you're building for a library: */
-		"declaration": true,
+		/* NextJs Bundler mode: */
+		"plugins": [{ "name": "next" }],
+		"incremental": true,
 
 		/* If your code runs in the DOM: */
-		"lib": ["ES2022", "DOM", "DOM.Iterable"]
+		"lib": ["ESNext", "DOM", "DOM.Iterable"]
 	}
 }
