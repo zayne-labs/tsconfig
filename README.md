@@ -1,6 +1,6 @@
 # `@zayne-labs/tsconfig`
 
-This package helps set proper presets for most projects. Inspired by Matt Pocock's [TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet).
+This package helps set proper tsconfig presets for most projects. Inspired by Matt Pocock's [TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet).
 
 ## Setup
 
