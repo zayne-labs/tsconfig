@@ -26,6 +26,7 @@
 
 		/* Bundler Mode: */
 		"module": "Preserve",
+		// "moduleResolution": "Bundler", // This is inferred from module: "Preserve"
 		"target": "ESNext",
 		"noEmit": true,
 		"jsx": "preserve",
