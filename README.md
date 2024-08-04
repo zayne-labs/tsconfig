@@ -38,10 +38,12 @@ If yes, use this selection of configs:
    // For code that runs in the DOM:
    "extends": "@zayne-labs/tsconfig/tsc/dom/app", // For an app
    "extends": "@zayne-labs/tsconfig/tsc/dom/library", // For a library
+	"extends": "@zayne-labs/tsconfig/tsc/dom/library-monorepo", // For a library in a monorepo
 
    // For code that doesn't run in the DOM (for instance, in Node.js):
    "extends": "@zayne-labs/tsconfig/tsc/no-dom/app", // For an app
    "extends": "@zayne-labs/tsconfig/tsc/no-dom/library", // For a library
+	"extends": "@zayne-labs/tsconfig/tsc/no-dom/library-monorepo", // For a library in a monorepo
 }
 ```
 
@@ -54,10 +56,12 @@ If no, you're probably using an external bundler.
    // For code that runs in the DOM:
    "extends": "@zayne-labs/tsconfig/bundler/dom/app", // For an app
    "extends": "@zayne-labs/tsconfig/bundler/dom/library", // For a library
+	"extends": "@zayne-labs/tsconfig/bundler/dom/library-monorepo", // For a library in a monorepo
 
    // For code that doesn't run in the DOM (for instance, in Node.js):
    "extends": "@zayne-labs/tsconfig/bundler/no-dom/app", // For an app
    "extends": "@zayne-labs/tsconfig/bundler/no-dom/library", // For a library
+	"extends": "@zayne-labs/tsconfig/bundler/no-dom/library-monorepo", // For a library in a monorepo
 }
 ```
 
