@@ -10,6 +10,9 @@
 	"homepage": "https://github.com/ryan-zayne/tsconfig#readme",
 	"license": "MIT",
 	"author": "Ryan Zayne",
+	"scripts": {
+		"release": "changeset publish"
+	},
 	"exports": {
 		"./tsc": "./tsc/dom/tsconfig.app.json",
 		"./tsc/dom": "./tsc/dom/tsconfig.app.json",
