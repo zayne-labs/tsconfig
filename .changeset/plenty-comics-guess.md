@@ -2,4 +2,4 @@
 "@zayne-labs/tsconfig": minor
 ---
 
-Switch organistations
+added new import paths
