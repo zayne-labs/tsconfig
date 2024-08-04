@@ -13,6 +13,9 @@
 	"scripts": {
 		"release": "changeset publish"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"exports": {
 		"./tsc": "./tsc/dom/tsconfig.app.json",
 		"./tsc/dom": "./tsc/dom/tsconfig.app.json",
