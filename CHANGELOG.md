@@ -1,5 +1,11 @@
 # @zayne-labs/tsconfig
 
+## 0.2.1
+
+### Patch Changes
+
+- b92f8e1: fix provenance
+
 ## 0.2.0
 
 ### Minor Changes
