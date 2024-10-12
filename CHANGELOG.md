@@ -1,5 +1,11 @@
 # @zayne-labs/tsconfig
 
+## 1.0.0
+
+### Major Changes
+
+- 9dadb83: feat:! removed vite config
+
 ## 0.1.2
 
 ### Patch Changes
