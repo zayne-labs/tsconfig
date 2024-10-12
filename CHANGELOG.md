@@ -1,5 +1,11 @@
 # @zayne-labs/tsconfig
 
+## 0.2.0
+
+### Minor Changes
+
+- 599c354: feat: remove vite config
+
 ## 1.0.0
 
 ### Major Changes
