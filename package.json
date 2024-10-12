@@ -14,8 +14,7 @@
 		"release": "changeset publish"
 	},
 	"publishConfig": {
-		"access": "public",
-		"provenance": true
+		"access": "public"
 	},
 	"exports": {
 		"./tsc": "./tsc/dom/tsconfig.app.json",
