@@ -1,5 +1,11 @@
 # @zayne-labs/tsconfig
 
+## 0.2.2
+
+### Patch Changes
+
+- 1cbb9df: add a json file for all base options. add erasableSyntaxOnly flag
+
 ## 0.2.1
 
 ### Patch Changes
