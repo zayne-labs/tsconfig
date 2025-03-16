@@ -19,6 +19,7 @@
 		"provenance": true
 	},
 	"exports": {
+		"./base": "./base/tsconfig.base.json",
 		"./tsc": "./tsc/dom/tsconfig.app.json",
 		"./tsc/dom": "./tsc/dom/tsconfig.app.json",
 		"./tsc/dom/app": "./tsc/dom/tsconfig.app.json",

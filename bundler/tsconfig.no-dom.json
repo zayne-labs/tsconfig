@@ -1,5 +1,5 @@
 {
-	"extends": ["./base/tsconfig.base.json"],
+	"extends": ["@zayne-labs/tsconfig/base"],
 
 	"compilerOptions": {
 		/* Bundler Mode: */
